@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E2019 ;
+    color: #1E2019;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+img.block {
+    display: block;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    max-height: 300px;
+}
+
+code {
+    background: #1E2019 ;
+    color: #FFC2D1 ;
+    display: inline-block;
+    padding: .2em .5em;
+}
+
+.donnee {
+    padding: 20px;
+    background-color: #FFC2D1 ;
+}
+
+.solution {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+
+/**** FLEX 1 ******/
+.flex1 nav ul {
+    max-width: 700px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex1 nav a:link,
+.flex1 nav a:visited {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/**** FLEX 2 ******/
+.flex2 ul {
+    max-width: 700px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex2 li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+}
+
+/**** FLEX 3 ******/
+.flex3 .parent {
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.flex3 .child {
+    background-color: #4D7298;
+    color: #fff;
+    padding: .5em;
+    width: 150px;
+}
+
+/**** FLEX 4 ******/
+.flex4 ul {
+    width: 400px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex4 li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    margin: .5em;
+}
